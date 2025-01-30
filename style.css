@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+nav{
+  padding: 45px 0;
+}
+
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .menu{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.btn{
+  padding: 13px 20px;
+font-size: 18px;
+text-transform: uppercase;
+color: #f7941e; 
+border: 1px solid #f7941e;
+border-radius: 5px;
+}
+
+
+
+
